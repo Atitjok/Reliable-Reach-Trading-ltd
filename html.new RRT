@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reliable Reach Trading Ltd | RRT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Reliable Reach</h1>
+        <span>TRADING LTD</span>
+    </div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#global">Global Reach</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="rrt-badge">RRT</div>
+</header>
+
+<section class="hero">
+    <h2>Connecting Markets. Building Trust.</h2>
+    <p>Reliable Reach Trading Ltd is an international trading company owned by South Sudanese, delivering value across borders.</p>
+    <button onclick="scrollToContact()">Contact Us</button>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+        Reliable Reach Trading Ltd (RRT) is an international trading company owned by South Sudanese,
+        led by <strong>Eng. Maan Bher</strong>, CEO.  
+        We specialize in cross-border trade, logistics coordination, supply sourcing, and market expansion.
+    </p>
+</section>
+
+<section id="services" class="section dark">
+    <h2>Our Services</h2>
+
+    <div class="cards">
+        <div class="card">International Trade</div>
+        <div class="card">Import & Export</div>
+        <div class="card">Logistics Coordination</div>
+        <div class="card">Market Expansion</div>
+    </div>
+</section>
+
+<section id="global" class="section">
+    <h2>Global Presence</h2>
+    <p>
+        We operate across Africa, Middle East, and Asia — connecting suppliers, buyers, and partners worldwide.
+    </p>
+</section>
+
+<section id="contact" class="section dark">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Reliable Reach Trading Ltd (RRT)</p>
+    <p>CEO: Eng. Maan Bher | South Sudan</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
